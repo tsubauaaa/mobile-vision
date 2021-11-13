@@ -12,7 +12,7 @@ import mobile_cv.common.misc.iter_utils as iu
 import torch
 import torch.nn as nn
 from mobile_cv.arch.layers import NaiveSyncBatchNorm
-from torch.ao.quantization.stubs import DeQuantStub, QuantStub
+from torch.quantization.stubs import DeQuantStub, QuantStub
 
 from . import fuse_utils
 
